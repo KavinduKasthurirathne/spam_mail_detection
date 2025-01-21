@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Spam/Ham Classifier</title>
+</head>
+<body>
+    <h1>Email Spam/Ham Classifier</h1>
+    <form method="POST">
+        <textarea name="email_content" rows="6" cols="50" placeholder="Enter email content here..."></textarea><br><br>
+        <input type="submit" value="Classify">
+    </form>
+    
+    {% if result %}
+    <h2>The email is classified as: {{ result }}</h2>
+    {% endif %}
+</body>
+</html>
