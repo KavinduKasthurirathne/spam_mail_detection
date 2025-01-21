@@ -25,4 +25,23 @@ First, clone the repository to your local machine.
 
 ```bash
 git clone https://github.com/KavinduKasthurirathne/spam_mail_detection.git
-cd email-classifier
+```
+
+### 2. Install Dependancies
+Install the required dependencies.
+
+```bash
+pip install pickle sklearn streamlit flask
+```
+
+### 3. Run the Application
+Run the streamlit application. Open the terminal and run the following command.
+
+```bash
+streamlit run app.py
+```
+Run the flask application. Open the terminal and run the following command.
+
+```bash
+python app.py
+```
